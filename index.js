@@ -27,7 +27,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`AMAN BANG BUAT PUSH `);
+  console.log(`HAVE FUN DEK`);
 
   const auth = rs.question('MASUKIN AUTHNYA BANG :  ');
   console.log('');
@@ -37,7 +37,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] AUTNYA GAK VALID ATAU EXPIRED?`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] AUTHNYA GAK VALID ATAU EXPIRED?`));
       break;
 
     } else if (result.includes('User')) {
