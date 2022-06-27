@@ -49,7 +49,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.blue(`Nama : ${username}`)} | ${chalk.red(`Piala : ${trophy}`)} | ${chalk.yellow(`Mahkota : ${crown}`)}`));
-      await sleep(6500);
+      await sleep(5000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`AKUNNYA KENA BANNED BANG `));
